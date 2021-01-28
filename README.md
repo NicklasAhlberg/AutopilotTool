@@ -15,7 +15,7 @@ If you have been working with Windows Autopilot you know that manual upload of t
 
 No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
-**How to use this tool**<br>
+**Instructions**<br>
 1. Put "Autopilot Tool.exe", "Logo.Png" and "Upload-WindowsAutopilotDeviceInfo.ps1" in same directory on either a USB-stick or on a network location<br>
 2. Press Shift+F10 when you are at the "pick your keyboard layout" screen<br>
 3. Navigate to "Autopilot Tool.exe", press Enter to start the tool<br>
