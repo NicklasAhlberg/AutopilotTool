@@ -9,7 +9,7 @@ This tool will make your life easier by…
 
 -Import the hardware hash.csv-file to the tenant
 
-Run a sync
+-Initiate a sync
 
 …. directly from the device! 
 
