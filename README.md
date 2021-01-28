@@ -7,7 +7,9 @@ Install the necessary PowerShell modules
 Connect to the tenant (MFA is supported)
 Import the hardware hash.csv-file to the tenant
 Run a sync
-…. directly from the device! No more need to struggle with USB-keys and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout) and sign in with an administrative user.
+…. directly from the device! 
+
+No more need to struggle with USB-keys and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout) and sign in with an administrative user.
 
 This is a UI to Nickolaj Andersens script found at: https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
 
