@@ -1,3 +1,3 @@
 # AutopilotTool
 
-![alt text](https://github.com/nicklasahlberg/AutopilotTool/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/NicklasAhlberg/AutopilotTool/blob/main/AutopilotTool.gif?raw=true)
