@@ -1,6 +1,7 @@
 # AutoPilot Tool – Upload HW hash with a user interface
 .Version 1.0.2.2<br>
-It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe
+It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe<br>
+Recommended logo size: 210x110 px
 
 If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task.
 
