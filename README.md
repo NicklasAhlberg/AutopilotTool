@@ -15,7 +15,7 @@ If you have been working with Windows Autopilot you know that manual upload of t
 
 No more need to struggle with USB-keys and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
-This is a UI to Nickolaj Andersens script found at: https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
+This is a UI to >Nickolaj Andersens script found at: https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
 
 
 ![alt text](https://github.com/NicklasAhlberg/AutopilotTool/blob/main/AutopilotTool.gif?raw=true)
