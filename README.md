@@ -9,7 +9,7 @@ Import the hardware hash.csv-file to the tenant
 Run a sync
 …. directly from the device! 
 
-No more need to struggle with USB-keys and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout) and sign in with an administrative user.
+No more need to struggle with USB-keys and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
 This is a UI to Nickolaj Andersens script found at: https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
 
