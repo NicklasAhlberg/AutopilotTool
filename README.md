@@ -17,4 +17,12 @@ No more need to struggle with USB-keys and import the csv-file from another devi
 
 This is a UI to Nickolaj Andersens script found at: https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
 
+
 ![alt text](https://github.com/NicklasAhlberg/AutopilotTool/blob/main/AutopilotTool.gif?raw=true)
+
+| Windows 10 version | Supported |
+| ------- | ------------------ |
+| 20H2  | :white_check_mark: |
+| 2004  | :white_check_mark: |
+| 1909  | :white_check_mark: |
+| 1903  | :white_check_mark: |
