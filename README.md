@@ -6,10 +6,10 @@ If you have been working with Windows Autopilot you know that manual upload of t
 
 **This tool will make your life easier by…**
 
-*-Install the necessary PowerShell modules*<br>
-*-Connect to the tenant (MFA is supported)*<br>
-*-Import the hardware hash.csv-file to the tenant*<br>
-*-Initiate a sync*
+*- Install the necessary PowerShell modules*<br>
+*- Connect to the tenant (MFA is supported)*<br>
+*- Import the hardware hash.csv-file to the tenant*<br>
+*- Initiate a sync*
 
 …. directly from the device! 
 
