@@ -20,7 +20,7 @@ If you have been working with Windows Autopilot you know that manual upload of t
 *- Import the hardware hash.csv-file to the tenant*<br>
 *- Initiate a sync*
 
-…. directly from the device! 
+…. directly from the autopilot device! 
 
 No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
