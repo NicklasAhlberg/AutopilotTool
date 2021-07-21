@@ -1,1 +1,1 @@
-domain = nicklasahlberg.se
+domain =
