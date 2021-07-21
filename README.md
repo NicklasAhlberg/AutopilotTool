@@ -1,4 +1,13 @@
 # AutoPilot Tool – Upload HW hash with a user interface
+
+<!-- wp:paragraph -->
+<p><strong>.Version 1.0.2.3</strong><br>It is now possible to set a default domain name. Get the latest version (1.0.2.3) from GitHub and you will find "<strong>config.txt</strong>" - edit as per your need. Thanks <strong>Dylan Brown</strong> for the idea!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Example: <br></strong><img class="wp-image-552" style="width: 244px;" src="https://www.nicklasahlberg.se/wp-content/uploads/2020/11/config_example.png" alt=""><br><img class="wp-image-551" style="width: 630px;" src="https://www.nicklasahlberg.se/wp-content/uploads/2020/11/config_example2.png" alt=""></p>
+<!-- /wp:paragraph -->
+
 .Version 1.0.2.2<br>
 It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe<br>
 Recommended logo size: 210x110 px
