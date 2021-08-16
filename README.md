@@ -37,6 +37,7 @@ No more need to struggle to manually get, move and import the csv-file from anot
 
 | Windows 10 version | Supported |
 | ------- | ------------------ |
+| 21H1  | :white_check_mark: |
 | 20H2  | :white_check_mark: |
 | 2004  | :white_check_mark: |
 | 1909  | :white_check_mark: |
