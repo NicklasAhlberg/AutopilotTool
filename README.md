@@ -34,8 +34,6 @@ No more need to struggle to manually get, move and import the csv-file from anot
 7. The HW hash has now been uploaded and will be visible in the Windows Autopilot service
 
 ![alt text](https://github.com/NicklasAhlberg/AutopilotTool/blob/main/AutopilotTool.gif?raw=true)
-![image](https://user-images.githubusercontent.com/74212904/129613747-e5d3b090-6903-426c-b4cd-a80640baac4f.png)
-
 
 | Windows 10 version | Supported |
 | ------- | ------------------ |
