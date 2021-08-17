@@ -33,7 +33,7 @@ It is now possible to use a custom logo. Place "logo.png" in the same directory 
 Recommended logo size: 210x110 px
 
 **Instructions**<br>
-1. Put "Autopilot Tool.exe", "Logo.png" and "config.txt" in same directory on either a USB-stick or on a network location<br>
+1. Download latest release and extract the .ZIP-file. Make sure "Autopilot Tool.exe", "Logo.png" and "config.txt" are in the same directory on either a USB-stick or on a network location<br>
 2. Press Shift+F10 when you are at the "pick your keyboard layout" screen<br>
 3. Navigate to "Autopilot Tool.exe", press Enter to start the tool<br>
 4. Change yourDomain.onmicrosoft.com to your specific need<br>
