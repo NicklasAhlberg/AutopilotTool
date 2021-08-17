@@ -1,5 +1,11 @@
 # AutoPilot Tool – Upload HW hash with a user interface
 
+<p><strong>.Version 1.0.2.4</strong><br>
+– Slightly new graphical interface<br>
+– Optional: It is now possible to add a group tag!<br>
+– Use the gather logs button to get autopilot logs as a CAB-file<br>
+</p>
+
 <!-- wp:paragraph -->
 <p><strong>.Version 1.0.2.3</strong><br>It is now possible to set a default domain name. Get the latest version (1.0.2.3) from GitHub and you will find "<strong>config.txt</strong>" - edit as per your need. Thanks <strong>Dylan Brown</strong> for the idea!</p>
 <!-- /wp:paragraph -->
