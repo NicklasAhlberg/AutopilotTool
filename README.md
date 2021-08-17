@@ -29,9 +29,12 @@ No more need to struggle to manually get, move and import the csv-file from anot
 2. Press Shift+F10 when you are at the "pick your keyboard layout" screen<br>
 3. Navigate to "Autopilot Tool.exe", press Enter to start the tool<br>
 4. Change yourDomain.onmicrosoft.com to your specific need<br>
-5. Press the OK-button<br>
-6. Sign-on with an Intune Administrator account (or similar) when prompted<br>
-7. The HW hash has now been uploaded and will be visible in the Windows Autopilot service
+5. Update: it is now possible to edit config.txt to add a default domain
+6. Optional: add a group tag
+7. Press the OK-button<br>
+8. Sign-on with an Intune Administrator account (or similar) when prompted<br>
+9. The HW hash has now been uploaded and will be visible in the Windows Autopilot service
+10. Update: press "Gather Logs" to create a CAB-file with all autopilot logs. Use this to troubleshoot the autopilot deployment
 
 ![alt text](https://www.nicklasahlberg.se/wp-content/uploads/2021/08/Autopilot_GIF_new.gif)
 
