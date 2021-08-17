@@ -1,5 +1,17 @@
 # AutoPilot Tool – Upload HW hash with a user interface
 
+If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task.
+
+**This tool will make your life easier by…**<br>
+*- Install the necessary PowerShell modules*<br>
+*- Connect to the tenant (MFA is supported)*<br>
+*- Import the hardware hash.csv-file to the tenant*<br>
+*- Initiate a sync*
+
+…. directly from the autopilot device! 
+
+No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
+
 <p><strong>.Version 1.0.2.4</strong><br>
 – Slightly new graphical interface<br>
 – Optional: It is now possible to add a group tag!<br>
@@ -17,18 +29,6 @@
 .Version 1.0.2.2<br>
 It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe<br>
 Recommended logo size: 210x110 px
-
-If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task.
-
-**This tool will make your life easier by…**<br>
-*- Install the necessary PowerShell modules*<br>
-*- Connect to the tenant (MFA is supported)*<br>
-*- Import the hardware hash.csv-file to the tenant*<br>
-*- Initiate a sync*
-
-…. directly from the autopilot device! 
-
-No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
 **Instructions**<br>
 1. Put "Autopilot Tool.exe", "Logo.png" and "config.txt" in same directory on either a USB-stick or on a network location<br>
