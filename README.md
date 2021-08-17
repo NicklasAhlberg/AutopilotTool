@@ -1,5 +1,7 @@
 # AutoPilot Tool – Upload HW hash with a user interface
 
+<P> <Strong> Download: </Strong> Click on a (preferably the latest) release to the right ---> </p> <br>
+
 If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task.
 
 **This tool will make your life easier by…**<br>
