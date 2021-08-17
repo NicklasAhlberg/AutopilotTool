@@ -33,7 +33,6 @@ No more need to struggle to manually get, move and import the csv-file from anot
 6. Sign-on with an Intune Administrator account (or similar) when prompted<br>
 7. The HW hash has now been uploaded and will be visible in the Windows Autopilot service
 
-![alt text](https://github.com/NicklasAhlberg/AutopilotTool/blob/main/AutopilotTool.gif?raw=true)
 ![alt text](https://www.nicklasahlberg.se/wp-content/uploads/2021/08/Autopilot_GIF_new.gif)
 
 | Windows 10 version | Supported |
