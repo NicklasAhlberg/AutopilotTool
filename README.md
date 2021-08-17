@@ -53,6 +53,3 @@ Recommended logo size: 210x110 px
 | 2004  | :white_check_mark: |
 | 1909  | :white_check_mark: |
 | 1903  | :white_check_mark: |
-
-This is a UI to Nickolaj Andersens script found at<br>
-https://github.com/MSEndpointMgr/Intune/blob/master/Autopilot/Upload-WindowsAutopilotDeviceInfo.ps1
