@@ -33,7 +33,7 @@ No more need to struggle to manually get, move and import the csv-file from anot
 
 .Version 1.0.2.2<br>
 It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe<br>
-Recommended logo size: 210x110 px
+Recommended logo size: 210x110px
 
 **Instructions**<br>
 1. Download latest release and extract the .ZIP-file. Make sure "Autopilot Tool.exe", "Logo.png" and "config.txt" are in the same directory on either a USB-stick or on a network location<br>
