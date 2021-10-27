@@ -41,7 +41,7 @@ Recommended logo size: 210x110px
 2. Press Shift+F10 when you are at the "pick your keyboard layout" screen<br>
 3. Navigate to "Autopilot Tool.exe", press Enter to start the tool<br>
 4. Change yourDomain.onmicrosoft.com to your specific need<br>
-5. Update: it is now possible to edit config.txt to add a default domain
+5. Update: it is now possible to edit config.txt to add a default domain and tag
 6. Optional: add a group tag
 7. Press the OK-button<br>
 8. Sign-on with an Intune Administrator account (or similar) when prompted<br>
