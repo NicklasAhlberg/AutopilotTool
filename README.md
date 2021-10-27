@@ -16,7 +16,7 @@ No more need to struggle to manually get, move and import the csv-file from anot
 
 .Version 1.0.2.5
 - It is now possible to add a default tag to the config-file
-- 
+
 <p><strong>.Version 1.0.2.4</strong><br>
 – Slightly new graphical interface<br>
 – Optional: It is now possible to add a group tag!<br>
