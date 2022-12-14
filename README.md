@@ -14,8 +14,12 @@ If you have been working with Windows Autopilot you know that manual upload of t
 
 No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
 
+<p><strong>.Version 1.0.2.6</strong><br>
+- It is now possible to add multitple domains to the config file<br>
+</p>
+
 <p><strong>.Version 1.0.2.5</strong><br>
-- It is now possible to add a default tag to the config-file<br>
+- It is now possible to add a default tag to the config file<br>
 </p>
 
 <p><strong>.Version 1.0.2.4</strong><br>
