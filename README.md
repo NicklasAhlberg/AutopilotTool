@@ -1,4 +1,4 @@
-# AutoPilot Tool – Upload HW hash with a user interface
+# Autopilot Tool – Upload HW hash with a user interface
 
 <P> <Strong> ✅Download: </Strong> Click on a (preferably the latest) release to the right ---> </p> <br>
 
