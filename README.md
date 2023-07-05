@@ -2,62 +2,122 @@
 
 <P> <Strong> ✅Download: </Strong> Click on a (preferably the latest) release to the right ---> </p> <br>
 
-If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task.
+Download from GitHub:
+https://github.com/NicklasAhlberg/AutoPilotTool 
 
-**This tool will make your life easier by…**<br>
-*- Install the necessary PowerShell modules*<br>
-*- Connect to the tenant (MFA is supported)*<br>
-*- Import the hardware hash.csv-file to the tenant*<br>
-*- Initiate a sync*
+.Version 1.0.3.0 (2023-07-05)
+- The tool has been updated to reflect the changes done to MS Graph.
+- Changes to the UI
+ - No need to pre-define the tenant/domain name, just sign on and you are good to go
+- A registered app is needed
 
-…. directly from the autopilot device! 
+.Version 1.0.2.6 (2022-12-14)
+- It is now possible to add multiple domains to the config-file. 
 
-No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure (when you get prompted) with an administrative user. This works well with MFA!
+.Version 1.0.2.5
+- It is now possible to add a default tag to the config file
 
-<p><strong>.Version 1.0.2.6</strong><br>
-- It is now possible to add multitple domains to the config file<br>
-</p>
+.Version 1.0.2.4
+- Slightly new graphical interface
+- Optional: It is now possible to add a group tag!
+- Use the gather logs button to get autopilot logs as a CAB file
 
-<p><strong>.Version 1.0.2.5</strong><br>
-- It is now possible to add a default tag to the config file<br>
-</p>
+.Version 1.0.2.3 (2021-08-17)
+It is now possible to set a default domain name. Get the latest version (1.0.2.3) from GitHub and you will find "config.txt" - edit as per your need. Thanks Dylan Brown for the idea!
 
-<p><strong>.Version 1.0.2.4</strong><br>
-– Slightly new graphical interface<br>
-– Optional: It is now possible to add a group tag!<br>
-– Use the gather logs button to get autopilot logs as a CAB-file<br>
-</p>
+.Version 1.0.2.2
+It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe
+Recommended logo size: 210x110 px
 
-<!-- wp:paragraph -->
-<p><strong>.Version 1.0.2.3</strong><br>It is now possible to set a default domain name. Get the latest version (1.0.2.3) from GitHub and you will find "<strong>config.txt</strong>" - edit as per your need. Thanks <strong>Dylan Brown</strong> for the idea!</p>
-<!-- /wp:paragraph -->
+If you have been working with Windows Autopilot you know that manual upload of the hardware hash is a repetitive and time consuming task. 
 
-<!-- wp:paragraph -->
-<p><strong>Example: <br></strong><img class="wp-image-552" style="width: 244px;" src="https://usercontent.one/wp/www.nicklasahlberg.se/wp-content/uploads/2020/11/Snag_915c09.png" alt=""><br></p>
-<!-- /wp:paragraph -->
+This tool will make your life easier by...
 
-.Version 1.0.2.2<br>
-It is now possible to use a custom logo. Place "logo.png" in the same directory as the .exe<br>
-Recommended logo size: 210x110px
+Install the necessary PowerShell modules
 
-**Instructions**<br>
-1. Download latest release and extract the .ZIP-file. Make sure "Autopilot Tool.exe", "Logo.png" and "config.txt" are in the same directory on either a USB-stick or on a network location<br>
-2. Press Shift+F10 when you are at the "pick your keyboard layout" screen<br>
-3. Navigate to "Autopilot Tool.exe", press Enter to start the tool<br>
-4. Change yourDomain.onmicrosoft.com to your specific need<br>
-5. Update: it is now possible to edit config.txt to add a default domain and tag
-6. Optional: add a group tag
-7. Press the OK-button<br>
-8. Sign-on with an Intune Administrator account (or similar) when prompted<br>
-9. The HW hash has now been uploaded and will be visible in the Windows Autopilot service
-10. Update: press "Gather Logs" to create a CAB-file with all autopilot logs. Use this to troubleshoot the autopilot deployment
+Connect to the tenant (MFA is supported)
 
-![alt text](https://www.nicklasahlberg.se/wp-content/uploads/2021/08/Autopilot_GIF_new.gif)
+Automatically uploading the autopilot hash to the Windows Autopilot service
 
-| Windows 10 version | Supported |
-| ------- | ------------------ |
-| 21H1  | :white_check_mark: |
-| 20H2  | :white_check_mark: |
-| 2004  | :white_check_mark: |
-| 1909  | :white_check_mark: |
-| 1903  | :white_check_mark: |
+Let you know when the upload has completed (success or error)
+
+.... directly from the device! 
+
+No more need to struggle to manually get, move and import the csv-file from another device. All you need to do is run the tool (Shift+F10 when you get to pick your keyboard layout), start Autopilot Tool and sign in to Azure with an administrative user. This works well with MFA!
+
+Instructions
+
+The Autopilot Tool will require a registered app in your tenant to be allowed to run the MS Graph calls. Follow the prerequisites at the end of this blog post for guidance on how to set that up.
+
+Open: Config.txt and add your tenant and client (application) ids and a group tag (save and close)
+
+Place: "Autopilot Tool.exe" and "config.txt" in same directory on either a USB-stick or on a network location
+
+Press: Shift+F10 when you are at the "pick your keyboard layout" screen
+
+Write: PowerShell + hit enter to start PowerShell
+
+Run: Install-Module MSAL.PS to install the needed PowerShell module (more info: AzureAD/MSAL.PS (github.com) )
+
+Navigate to "Autopilot Tool.exe", press enter to start the tool
+
+Optional: add a group tag
+
+Click: Upload and sign in with a user with sufficient privileges
+
+The hash will be uploaded to the Windows Autopilot service automatically after 2-3 minutes (the tool will query the service and let you know as soon as it is ready).
+
+Download the tool from Github:
+https://github.com/NicklasAhlberg/AutoPilotTool
+
+Windows 10 versionSupported21H1OK20H2OK2004OK1909OK1903OKAll Windows 11OK
+
+Prerequisites: Register the app
+
+We will use an Azure registered app with delegated permissions to execute our MS Graph calls against. Please note that the app itself cannot do changes beyond these permissions even if the user running the tool has more permissions, and the other way around. The next steps cover how to create the app and delegate the appropriate permissions.
+
+You will need either Global Administrator or Application Administrator to register the app in Azure
+
+Navigate to: https://portal.azure.com
+
+Click: Azure Active Directory
+
+Click: App registrations
+
+Click: New registration
+
+Name: I will use ‘Demo-Graph‘, but you may name the app differently (What about “Autopilot Tool”?)
+
+Supported account types: Accounts in this organizational directory only
+
+Redirect URI (Select a platform): Public client/native (mobile and desktop)
+
+Redirect URI (URL): https://login.microsoftonline.com/common/oauth2/nativeclient
+
+Click: Register
+
+Save the Application (client) ID in notepad, we will need it later
+
+Click: API Permissions
+
+Click: Microsoft Graph
+
+Click: Delegated permissions
+
+Search for and mark:
+
+DeviceManagementServiceConfig.ReadWrite.All
+
+Click: Add permissions ❗below printscreens have been reused from another post and includes more permissions than needed by the Autopilot Tool. DeviceManagementServiceConfig.ReadWrite.All is enough in our case.
+
+Click: Grant admin consent for…
+
+Click: Yes
+
+Make sure that the permissions have been granted accordingly
+
+Now navigate to https://portal.azure.com/
+
+Click: Azure Active Directory
+
+Save the Tenant ID in notepad, we will need it later.
