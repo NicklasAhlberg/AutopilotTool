@@ -5,6 +5,11 @@
 Download from GitHub:
 https://github.com/NicklasAhlberg/AutoPilotTool 
 
+.Version 2026.03.29
+– Graphical improvements
+– Log textbox has been updated with improved readability, color code etc
+– The code has been changed to make sure the tool doesn’t get stuck in specific scenarios (thanks for all the feedback to improve the tool)!
+
 .Version 1.0.3.0 (2023-07-05)
 - The tool has been updated to reflect the changes done to MS Graph.
 - Changes to the UI
