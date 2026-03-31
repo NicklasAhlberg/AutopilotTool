@@ -1,3 +1,4 @@
+<img width="1014" height="764" alt="Screenshot 2026-03-31 211236" src="https://github.com/user-attachments/assets/33c1baf4-7197-4a94-afea-9a704d94dee7" />
 # Autopilot Tool – Upload HW hash with a user interface
 
 <P> <Strong> ✅Download: </Strong> Click on a (preferably the latest) release to the right ---> </p> <br>
